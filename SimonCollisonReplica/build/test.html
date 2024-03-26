@@ -135,16 +135,35 @@
         </header>
 
         <main class="w-full pb-14 font-sans">
-            <h1 class="text-4xl font-semibold mt-14 mb-6 log-color">Search the site</h1>
-            <p class="my-6 text-xl font-semibold">Search all titles, standfirsts and body text across all sections.</p>
-            <form action="" class="search-form-border flex  mt-7 w-3/4 lg:w-1/2">
-                <input type="text" placeholder="" class="w-4/5 py-2 px-4">
-                <button class="input-color w-1/5 text-white font-semibold p-1">
-                    Search 
-                </button>
-            </form>
-            <div id="search-content" class="w-full min-h-56">
+            <h1 class="text-4xl font-semibold mt-14 mb-6 log-color">Geotagged posts</h1>
+            <p class="my-6 text-xl font-semibold">All posts with longitude and latitude metadata</p>
+            <div class="w-full h-96">
+                <iframe class="w-full h-full" src="https://maps.google.com/maps?q=world&hl=en&z=1&amp;output=embed" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
+            <div>
+                <h3 class="text-3xl font-semibold mt-14 mb-6 log-color">Sample tags</h3>
+                <ul class="flex justify-start gap-2 flex-wrap w-full  lg:w-2/3 text-lg">
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Instagram</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Photos</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Japan</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Iceland</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">USA</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">The National</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Run</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Internet of Natural Things</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Notes</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Setlist</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Speaking</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Music</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Art</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Travel</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Outdoors</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Sport</a></li>
+                    <li class="tag-item"><a class="whitespace-nowrap" href="">Food & Drink</a></li>
+                    </ul>
+
+                    <p class="my-6 text-xl">If you’re interested in how this map works, read <a class="page-link" href="https://colly.com/stream/geotagging-posts">this short post</a>.</p>
+            </div>      
         </main>
 
         <footer class="w-full border-t-2 border-gray-400 px-4">

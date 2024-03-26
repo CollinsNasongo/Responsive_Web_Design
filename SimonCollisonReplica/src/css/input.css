@@ -70,4 +70,16 @@
     .page-link {
         @apply underline underline-offset-4 decoration-2 decoration-blue-400 hover:decoration-blue-600;
     }
+
+    .bg-tag {
+        background-color: #1a3743;
+    }
+
+    .tag-item {
+        @apply border p-1 log-color
+    }
+
+    .tag-item:hover {
+        @apply  hover:text-white hover:bg-tag;
+    }
 }
