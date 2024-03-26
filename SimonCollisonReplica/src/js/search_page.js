@@ -10,7 +10,16 @@ templates['search_page'] = template({"1":function(container,depth0,helpers,parti
 
   return "";
 },"2":function(container,depth0,helpers,partials,data) {
-    return "    \r\n";
+    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+          return parent[propertyName];
+        }
+        return undefined
+    };
+
+  return "\r\n"
+    + ((stack1 = container.invokePartial(lookupProperty(partials,"search_layout"),depth0,{"name":"search_layout","data":data,"indent":"    ","helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + "\r\n";
 },"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data,blockParams,depths) {
     var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
         if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -29,7 +38,7 @@ templates['search_page'] = template({"1":function(container,depth0,helpers,parti
         return undefined
     };
 
-  fn = lookupProperty(decorators,"inline")(fn,props,container,{"name":"inline","hash":{},"fn":container.program(2, data, 0, blockParams, depths),"inverse":container.noop,"args":["content"],"data":data,"loc":{"start":{"line":2,"column":0},"end":{"line":4,"column":11}}}) || fn;
+  fn = lookupProperty(decorators,"inline")(fn,props,container,{"name":"inline","hash":{},"fn":container.program(2, data, 0, blockParams, depths),"inverse":container.noop,"args":["content"],"data":data,"loc":{"start":{"line":2,"column":0},"end":{"line":6,"column":11}}}) || fn;
   return fn;
   }
 

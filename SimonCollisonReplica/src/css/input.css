@@ -43,7 +43,13 @@
 
     .form-border{
         border-radius: 0;
-        border: 2px solid #79A2B2;
+        border: 3px solid #79A2B2;
+        display: inline-block;
+    }
+
+    .search-form-border{
+        border-radius: 0;
+        border: 3px solid #79A2B2;
         display: inline-block;
     }
 
