@@ -83,6 +83,14 @@
         @apply  hover:text-white hover:bg-tag;
     }
 
+    .dt-work {
+        color: #79A2B2;
+    }
+
+    .city-color {
+        color: #7EA684;
+    }
+
     /* Timeline Properties */
     
     .tln img {
