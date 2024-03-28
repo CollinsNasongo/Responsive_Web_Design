@@ -82,4 +82,27 @@
     .tag-item:hover {
         @apply  hover:text-white hover:bg-tag;
     }
+
+    /* Timeline Properties */
+    
+    .tln img {
+        @apply w-28 h-auto mx-2;
+    }
+
+    .nav-container li a {
+        @apply hover:bg-gray-50;
+    }
+
+    .tln .round-img{
+        @apply w-52;
+    }
+
+    .tln li p span{
+        @apply font-semibold leading-relaxed inline-block w-32 text-left underline decoration-dashed underline-offset-4 decoration-gray-400 mx-2;
+    }
+
+    .tln li {
+        @apply  bg-red-300 border; 
+    }
+
 }

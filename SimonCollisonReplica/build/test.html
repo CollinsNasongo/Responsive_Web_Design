@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SimonCollinson | PageName</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/timeline.css">
 </head>
 <body class="bord-top">
     <div class="container w-11/12 mx-auto">
@@ -18,7 +19,8 @@
                     </div>
                     <div class="w-10 md:hidden">
                         <ul class="grid grid-cols-2 grid-rows-2 gap-2">
-                            <li ><a href="" class="archive-box">
+                            <li>
+                                <a href="" class="archive-box">
                                 <svg class="w-4 h-4" width="550px" height="550px" viewBox="0 0 550 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <title>Artboard Copy 4</title>
                                     <g id="Artboard-Copy-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -70,7 +72,7 @@
                 <div class="nav-container flex justify-between border-t-2 border-gray-400 ">     
                         <div class="w-full md:w-1/2">
                             <ul class="text-sm font-bold flex justify-between ">
-                                <li class="hidden md:block border-l-2 nav-border w-full"><a class="pt-2 pb-3 nav-links-color hover:nav-links-hover-color flex justify-center" href="">HOME</a></li>
+                                <li class="hidden md:block border-l-2 nav-border w-full"><a class="pt-2 pb-3 nav-links-color hover:nav-links-hover-color  flex justify-center" href="">HOME</a></li>
                                 <li class="border-l-2 nav-border w-full"><a class="  nav-links-color hover:nav-links-hover-color pt-2 pb-3 w-full flex justify-center" href="">ARTICLES</a></li>
                                 <li class="border-l-2 nav-border w-full"><a class=" nav-links-color hover:nav-links-hover-color px-1 pt-2 pb-3 flex justify-center" href="">STREAM</a></li>
                                 <li class="border-l-2 nav-border w-full"><a class=" nav-links-color hover:nav-links-hover-color px-1 pt-2 pb-3 flex justify-center" href="">WORK</a></li>
@@ -80,7 +82,7 @@
                         
                         <div>
                             <ul class=" text-sm font-bold flex justify-between ">
-                                <li class="hidden md:block border-l-2 nav-border w-full "><a href="" class="px-1 pt-3 pb-3 flex justify-end">
+                                <li class="hidden md:block border-l-2 nav-border w-full p-1"><a href="" class="px-1 pt-3 pb-3 flex justify-end">
                                     <svg class="w-4 h-4" width="550px" height="550px" viewBox="0 0 550 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                         <title>Artboard Copy 4</title>
                                         <g id="Artboard-Copy-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -134,36 +136,240 @@
             </nav>
         </header>
 
-        <main class="w-full pb-14 font-sans">
-            <h1 class="text-4xl font-semibold mt-14 mb-6 log-color">Geotagged posts</h1>
-            <p class="my-6 text-xl font-semibold">All posts with longitude and latitude metadata</p>
-            <div class="w-full h-96">
-                <iframe class="w-full h-full" src="https://maps.google.com/maps?q=world&hl=en&z=1&amp;output=embed" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-            <div>
-                <h3 class="text-3xl font-semibold mt-14 mb-6 log-color">Sample tags</h3>
-                <ul class="flex justify-start gap-2 flex-wrap w-full  lg:w-2/3 text-lg">
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Instagram</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Photos</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Japan</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Iceland</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">USA</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">The National</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Run</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Internet of Natural Things</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Notes</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Setlist</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Speaking</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Music</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Art</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Travel</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Outdoors</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Sport</a></li>
-                    <li class="tag-item"><a class="whitespace-nowrap" href="">Food & Drink</a></li>
-                    </ul>
+        <main class="w-full pb-14 font-sans">     
+            <div class="h-full">
+                <h1 class="text-4xl font-semibold mt-14 mb-6 log-color">Articles</h1>
 
-                    <p class="my-6 text-xl">If you’re interested in how this map works, read <a class="page-link" href="https://colly.com/stream/geotagging-posts">this short post</a>.</p>
-            </div>      
+                <div class="relative">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:w-3/4  gap-3 border-b xl:border-b-0  border-gray-400 mb-5">
+                        <div class="w-11/12 mx-auto border-t border-gray-400 mb-4">
+                            <figure class="my-4">
+                                <img class="h-56 w-full" src="./img/articles/mammebaby-450x.png" alt="">
+                            </figure>
+                            <p ><dt class="head-text-color font-semibold inline">20th March, 2024</dt> <span class="head-text-color"> / Personal</span></p>
+                            <h2 class="log-color font-semibold text-xl">
+                                <a class="page-link" href="">Patricia Joan Collinson</a>
+                            </h2>
+                            <p class="text-lg">
+                                1944–2024. 
+                            </p>
+                        </div>
+                        <div class="w-11/12 mx-auto border-t border-gray-400  mb-4">
+                            <figure class="my-4">
+                                <img class="h-56 w-full" src="./img/articles/yim-cover-450x.jpg" alt="">
+                            </figure>
+                            <p ><dt class="head-text-color font-semibold inline">2023 in music</dt> <span class="head-text-color"> / Music</span></p>
+                            <h2 class="log-color font-semibold text-xl">
+                                <a class="page-link" href="">2023 in music</a>
+                            </h2>
+                            <p class="text-lg">
+                                This is my 20th annual roundup, a landmark befitting such a rewarding year in music. But it was a very long year, with hundreds of notable releases making it more challenging than ever to keep up. 
+                            </p>
+                        </div>
+
+                        <div class="w-11/12 mx-auto border-t border-gray-400  mb-4">
+                            <figure class="my-4">
+                                <img class="h-56 w-full" src="./img/articles/new-order-leeds-450x.png" alt="">
+                            </figure>
+                            <p ><dt class="head-text-color font-semibold inline">7th October, 2023</dt> <span class="head-text-color"> / Music</span></p>
+                            <h2 class="log-color font-semibold text-xl">
+                                <a class="page-link" href="">New Order</a>
+                            </h2>
+                            <p class="text-lg">
+                                First Direct Arena, Leeds. A fine time with the band that changed everything for me, eviscerating memories of a disappointing night at Ally Pally five years ago. 
+                            </p>
+                        </div>
+
+                        <div class="w-11/12 mx-auto border-t border-gray-400  mb-4">
+                            <figure class="my-4">
+                                <img class="h-56 w-full" src="./img/articles/national-leeds-450x.jpg" alt="">
+                            </figure>
+                            <p ><dt class="head-text-color font-semibold inline">23rd September, 2023</dt> <span class="head-text-color"> / Music</span></p>
+                            <h2 class="log-color font-semibold text-xl">
+                                <a class="page-link" href="">The National</a>
+                            </h2>
+                            <p class="text-lg">
+                                First Direct Arena, Leeds. Another epic setlist from The National packed with old rarities like Cherry Tree, Abel and Available and new treats, including a mesmerising Smoke Detector. 
+                            </p>
+                        </div>
+
+                        <div class="w-11/12 mx-auto border-t border-gray-400  mb-4">
+                            <figure class="my-4">
+                                <img class="h-56 w-full" src="./img/articles/joe-hisaishi-wembley-450x.jpg" alt="">
+                            </figure>
+                            <p ><dt class="head-text-color font-semibold inline">22nd September, 2023</dt> <span class="head-text-color"> / Music</span></p>
+                            <h2 class="log-color font-semibold text-xl">
+                                <a class="page-link" href="">Joe Hisaishi: Music from the Studio Ghibli Films of Hayao Miyazaki</a>
+                            </h2>
+                            <p class="text-lg">
+                                ...with the BBC Concert Orchestra and Crouch End Festival Chorus. 
+                            </p>
+                        </div>
+
+                        <div class="w-11/12 mx-auto border-t border-gray-400  mb-4">
+                            <figure class="my-4">
+                                <img class="h-56 w-full" src="./img/articles/a-450x.jpg" alt="">
+                            </figure>
+                            <p ><dt class="head-text-color font-semibold inline">5th August, 2023</dt> <span class="head-text-color"> / Travel</span></p>
+                            <h2 class="log-color font-semibold text-xl">
+                                <a class="page-link" href="">A few days in deepest Devon</a>
+                            </h2>
+                            <p class="text-lg">
+                                One of Geri’s lovely clients invited us to join the team for a relaxed get-together in deepest Devon. It’s a six-hour drive, so we seized the opportunity to enjoy a much-needed mini break. 
+                            </p>
+                        </div>
+
+                        <div class="w-11/12 mx-auto border-t border-gray-400  mb-4">
+                            <figure class="my-4">
+                                <img class="h-56 w-full" src="./img/articles/mitsune-setlist-450x.jpg" alt="">
+                            </figure>
+                            <p ><dt class="head-text-color font-semibold inline">24th July, 2023</dt> <span class="head-text-color"> / Music</span></p>
+                            <h2 class="log-color font-semibold text-xl">
+                                <a class="page-link" href="">Mitsune</a>
+                            </h2>
+                            <p class="text-lg">
+                                We've owned a copy of Mitsune’s second album for some time, and Geri’s friends with one of the shamisen players, so we decided to catch their intimate tour opener in Huddersfield. 
+                            </p>
+                        </div>
+
+                        <div class="w-11/12 mx-auto border-t border-gray-400  mb-4">
+                            <figure class="my-4">
+                                <img class="h-56 w-full" src="./img/articles/sakamoto-450x.jpg" alt="">
+                            </figure>
+                            <p ><dt class="head-text-color font-semibold inline">18th July, 2023</dt> <span class="head-text-color"> / Art</span></p>
+                            <h2 class="log-color font-semibold text-xl">
+                                <a class="page-link" href="">Kagami: Ryuichi Sakamoto and Tin Drum at MIF</a>
+                            </h2>
+                            <p class="text-lg">
+                                An appropriately glitchy and unexpectedly moving mixed reality performance starring the revered Japanese musician freezes beauty in time and thaws our scepticism.
+                            </p>
+                        </div>
+
+                        <div class="w-11/12 mx-auto border-t border-gray-400  mb-4">
+                            <figure class="my-4">
+                                <img class="h-56 w-full" src="./img/articles/pulp-sheffield-450x.jpg" alt="">
+                            </figure>
+                            <p ><dt class="head-text-color font-semibold inline">14th July, 2023</dt> <span class="head-text-color"> / Music</span></p>
+                            <h2 class="log-color font-semibold text-xl">
+                                <a class="page-link" href="">Pulp (last one, promise)</a>
+                            </h2>
+                            <p class="text-lg">
+                                Our third and final Pulp gig of the Summer. I’ve enjoyed revisting their world and appreciating just how wonderful it is. Every show has been a nostalgic treat, but tonight’s was a triumph.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-start gap-3 items-center mt-20">
+                        <button class="bg-white log-color p-2 font-bold rounded hover:text-white hover:bg-tag hidden">
+                            ⟶ NEWER 
+                        </button>
+                        <button class="bg-white log-color p-2 font-bold rounded hover:text-white hover:bg-tag ">
+                            ⟵ OLDER 
+                        </button>
+                    </div>
+        
+                    <div class="border-t xl:absolute xl:right-0 xl:top-0 xl:w-72 xl:border mt-4 border-gray-400 px-4 pt-4 pb-8 text-lg">
+                        <div class="w-full border-b border-gray-400 pb-4 mb-4">
+                            <h3 class="log-color font-semibold text-2xl">
+                                <a href="">Stream</a>
+                            </h3>
+                            
+                            <p>
+                                For an almost daily dump of ideas, observations, quotes, travel notes, and consumed culture, check out my Stream <a href="">&#8594;</a>
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3 class="log-color font-semibold text-xl mb-4">
+                                Filter by tag
+                            </h3>
+
+                            <h2 class="log-color font-bold mb-3">
+                                Faves and examples
+                            </h2>
+                            <ul class="flex justify-start gap-2 flex-wrap w-full  text-sm font-semibold">
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Design</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Year In Music</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Music</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Japan</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">New Adventures</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Iceland</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Setlist</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Art</a></li>
+                            </ul>
+
+                            <h2 class="log-color font-bold mb-3">
+                                Content types
+                            </h2>
+                            <ul class="flex justify-start gap-2 flex-wrap w-full  text-sm font-semibold">
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Essay</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Review</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Audio</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Video</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">List</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Notes</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Photos</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Instagram</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Setlist</a></li>
+                            </ul>
+
+                            <h2 class="log-color font-bold mb-3">
+                                News
+                            </h2>
+                            <ul class="flex justify-start gap-2 flex-wrap w-full  text-sm font-semibold">
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Personal</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Events</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Writing</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Speaking</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Interview</a></li>
+                            </ul>
+
+                            <h2 class="log-color font-bold mb-3">
+                                Culture & humanities
+                            </h2>
+                            <ul class="flex justify-start gap-2 flex-wrap w-full  text-sm font-semibold">
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Design</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Music</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Art</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Books</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Film & TV</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Web</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Games</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Philosophy</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Psychology</a></li>
+                            </ul>
+
+                            <h2 class="log-color font-bold mb-3">
+                                Science, tech, world
+                            </h2>
+                            <ul class="flex justify-start gap-2 flex-wrap w-full  text-sm font-semibold">
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Environment</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Ecology</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Nature</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Politics</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Ethics</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Technology</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Future</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Society</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Science</a></li>
+                            </ul>
+
+                            <h2 class="log-color font-bold my-3">
+                                Lifestyle
+                            </h2>
+                            <ul class="flex justify-start gap-2 flex-wrap w-full  text-sm font-semibold">
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Travel</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Outdoors</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Sport</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Health & Fitness</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Food & Drink</a></li>
+                                <li class="tag-item"><a class="whitespace-nowrap" href="">Home</a></li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+             
         </main>
 
         <footer class="w-full border-t-2 border-gray-400 px-4">
