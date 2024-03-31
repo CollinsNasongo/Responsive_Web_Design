@@ -79,7 +79,7 @@
         @apply border p-1 log-color
     }
 
-    .tag-item:hover {
+    .tag-item:hover{
         @apply  hover:text-white hover:bg-tag;
     }
 
@@ -114,15 +114,27 @@
     }
 
     .tln .round-img{
-        @apply w-52;
+        @apply w-36;
     }
 
     .tln li p span{
-        @apply font-semibold leading-relaxed inline-block w-32 text-left underline decoration-dashed underline-offset-4 decoration-gray-400 mx-2;
+        @apply font-semibold leading-relaxed inline-block w-32 text-left underline decoration-1 decoration-dashed  underline-offset-4 decoration-gray-400 mx-2;
     }
 
     .tln li {
         @apply  bg-red-300 border; 
     }
 
+    .fn-icon {
+        @apply text-red-700;
+    }
+
+
+
+    /* Footnotes Property */
+    /* #D8DAC9 */
+
+    ol .lst {
+        column-rule: solid 1px #D8DAC9;
+    }
 }
