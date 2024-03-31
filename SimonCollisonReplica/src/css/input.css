@@ -79,7 +79,7 @@
         @apply border p-1 log-color
     }
 
-    .tag-item:hover{
+    .tag-item:hover {
         @apply  hover:text-white hover:bg-tag;
     }
 
@@ -122,7 +122,7 @@
     }
 
     .tln li {
-        @apply  bg-red-300 border; 
+        @apply  bg-red-100 border; 
     }
 
     .fn-icon {
