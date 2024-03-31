@@ -121,10 +121,6 @@
         @apply font-semibold leading-relaxed inline-block w-32 text-left underline decoration-1 decoration-dashed  underline-offset-4 decoration-gray-400 mx-2;
     }
 
-    .tln li {
-        @apply  bg-red-100 border; 
-    }
-
     .fn-icon {
         @apply text-red-700;
     }
