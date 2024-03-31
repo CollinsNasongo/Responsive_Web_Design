@@ -91,6 +91,18 @@
         color: #7EA684;
     }
 
+    .archive-yrs li {
+        @apply bg-white w-24;
+    }
+
+    .filter-by ul li {
+        @apply bg-white;
+    }
+
+    .lst-pad{
+        padding-left: 1.2rem;
+    }
+
     /* Timeline Properties */
     
     .tln img {
